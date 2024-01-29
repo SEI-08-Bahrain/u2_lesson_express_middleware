@@ -38,10 +38,6 @@ This lesson continues to build upon the `express-todos` project.
     ```
     nodemon
     ```
-4. **If the app is not running** or if you just want to make sure you are starting with the same code as your instructor, **sync your project** using the following command:
-    ```
-    git pull upstream main
-    ```
 
 ## 2. What is Middleware?
 
@@ -153,17 +149,6 @@ Refresh shows that it no longer works because the router middleware are ending t
 
 Move it back above the routes - yep, order of middleware matters.
 
-<details>
-<summary>
-👀 Do you need to sync your code?
-</summary>
-<hr>
-
-**`git pull upstream main`**
-
-<hr>
-</details>
-
 ## 4. Creating To-Dos
 
 Time to add some additional functionality to our app - adding To-Dos!
@@ -185,7 +170,7 @@ So yes, creating and updating data in a multi-page web application is often a tw
 
 ### Suggested Workflow to Add Functionality to a Web App
 
-In SEI, we don't just teach the syntax of programming - we teach helpful processes and techniques, e.g., the Guide on How to Build a Browser Game, that are difficult to discover on your own.
+In SEI, we don't just teach the syntax of programming - we teach helpful processes and techniques that are difficult to discover on your own.
 
 So, you want to add a new feature to your web app?
 
@@ -315,17 +300,6 @@ When the form is submitted, its `method` and `action` attributes determine what 
 
 Verify that clicking the **Add To-Do** link displays the page with the form - bravo!
 
-<details>
-<summary>
-👀 Do you need to sync your code?
-</summary>
-<hr>
-
-**`git pull upstream main`**
-
-<hr>
-</details>
-
 ### Implementing the second-request (`create`) functionality
 
 Again, creating data can take two separate requests - it depends upon the design of the app.
@@ -419,11 +393,6 @@ const create = (todo) => {
 
 #### Congrats on creating To-Dos!
 
-<details>
-<summary>
-👀 Do you need to sync your code?
-</summary>
-<hr>
 
 **`git pull upstream main`**
 
@@ -576,17 +545,6 @@ module.exports = {
 > Using the Array.prototype.filter method is another option for removing the todo.
 
 Does it work?  Of course it does!
-
-<details>
-<summary>
-👀 Do you need to sync your code?
-</summary>
-<hr>
-
-**`git pull upstream main`**
-
-<hr>
-</details>
 
 ## 7. Update a To-Do
 
