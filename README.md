@@ -539,7 +539,6 @@ module.exports = {
     deleteOne
 };
 ```
-> Using the Array.prototype.filter method is another option for removing the todo.
 
 Does it work?  Of course it does!
 
