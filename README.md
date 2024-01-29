@@ -28,7 +28,7 @@ This lesson continues to build upon the `express-todos` project.
 
 1. Move into the repo/project folder:
     ```
-    cd ~/code/express-todos
+    cd ~/GA/labs/express-todos
     ```
 2. Open project in VS Code:
     ```
