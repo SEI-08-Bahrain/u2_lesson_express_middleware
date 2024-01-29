@@ -394,11 +394,6 @@ const create = (todo) => {
 #### Congrats on creating To-Dos!
 
 
-**`git pull upstream main`**
-
-<hr>
-</details>
-
 ## 5. `method-override`  Middleware
 
 <details>
