@@ -78,7 +78,7 @@ It's called a **pipeline** because the HTTP request flows through it.
 
 ### Purpose of Middleware
 
-Middleware can be used to perform functionality such authentication and processing the request in multitude of ways.
+Middleware can be used to perform functionality such as authentication and processing the request in multitude of ways.
 
 Let's review the purpose of each middleware mounted in our Express generated app:
 
