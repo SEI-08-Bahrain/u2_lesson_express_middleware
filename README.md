@@ -447,7 +447,9 @@ Here we go again following the same process explained in the [Guide to Add a Fea
 
 #### Step 1. Determine the proper route
 
-We already identified the proper route when we coded the `<form>`.
+```
+// DELETE /todos/:id
+```
 
 Cool, on to step 2...
 
